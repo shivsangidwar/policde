@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.date-box {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.notification-box {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #abcd22;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calendar {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#monthYear {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+}
+
+.calendar-grid div {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+span{color:red;
+  font-size: 25px;
+}
